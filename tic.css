@@ -1,0 +1,166 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #52a5cc, #52a5cc);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+main {
+  padding: 1rem;
+}
+
+/* Heading */
+#h1 {
+  font-size: 15rem; /* Bigger heading */
+  font-weight: bold;
+  margin-bottom: 1px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* Game Layout */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-layout {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.game {
+  height: 50vmin;
+  width: 50vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+/* Board Boxes */
+
+.box:hover {
+  transform: scale(1.05);
+}
+.box {
+  height: 15vmin;
+  width: 15vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 20px rgba(98, 45, 197, 0.5), 0 0 40px rgba(98, 45, 197, 0.3);
+  font-size: 8vmin;
+  color: #622dc5;
+  background-color: #c5c510;
+  transition: box-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+
+
+/* Buttons */
+#reset-btn,
+#new-btn,
+#startBtn {
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+#reset-btn:hover,
+#new-btn:hover,
+#startBtn:hover {
+  background-color: #333;
+  transform: scale(1.05);
+}
+
+/* Messages */
+#msg {
+  color: #ffffc7;
+  font-size: 5vmin;
+}
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+.hide {
+  display: none;
+}
+
+/* Mode Selection */
+.mode-select,
+.match-setup {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: #ffffc7;
+}
+
+/* Match Setup Inputs */
+.match-setup input {
+  width: 70px;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+}
+
+/* Checkbox Styling */
+input[type="checkbox"] {
+  transform: scale(1.5);
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+/* Scoreboard */
+.scoreboard {
+  font-size: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 250px;
+  min-width: 180px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Series Message */
+#series-msg {
+  font-size: 8vmin;
+  color: #ffffc7;
+}
+
+/* Difficulty Dropdown */
+#difficulty-container {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: #ffffc7;
+}
+#difficulty {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+  background: #fff;
+  color: #000;
+}
+

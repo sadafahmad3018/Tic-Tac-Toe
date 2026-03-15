@@ -1,0 +1,19 @@
+.mode-container{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+gap:20px;
+color:white;
+}
+
+.mode-container button{
+padding:15px 30px;
+font-size:18px;
+border:none;
+border-radius:10px;
+background:#ff5252;
+color:white;
+cursor:pointer;
+}

@@ -1,0 +1,107 @@
+.welcome-container{
+width:100vw;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background: radial-gradient(circle,#0f172a,#020617);
+overflow:hidden;
+position:relative;
+color:white;
+font-family:sans-serif;
+}
+
+/* Main content */
+.welcome-content{
+position:relative;
+z-index:2;
+text-align:center;
+}
+
+.game-title{
+font-size:80px;
+letter-spacing:6px;
+color:#38bdf8;
+text-shadow:0 0 20px #38bdf8;
+margin-bottom:10px;
+}
+
+.subtitle{
+font-size:22px;
+margin-bottom:40px;
+color:#cbd5f5;
+}
+
+.start-btn{
+padding:16px 45px;
+font-size:22px;
+border:none;
+border-radius:40px;
+cursor:pointer;
+background:linear-gradient(90deg,#38bdf8,#0ea5e9);
+color:white;
+transition:0.3s;
+}
+
+.start-btn:hover{
+transform:scale(1.1);
+box-shadow:0 0 20px #38bdf8;
+}
+
+/* Background symbols */
+.background-symbols span{
+position:absolute;
+font-size:80px;
+color:rgba(255,255,255,0.1);
+animation:float 12s linear infinite;
+}
+
+/* Random positions */
+.background-symbols span:nth-child(1){
+top:10%;
+left:20%;
+animation-duration:14s;
+}
+
+.background-symbols span:nth-child(2){
+top:30%;
+left:70%;
+animation-duration:10s;
+}
+
+.background-symbols span:nth-child(3){
+top:70%;
+left:40%;
+animation-duration:16s;
+}
+
+.background-symbols span:nth-child(4){
+top:50%;
+left:10%;
+animation-duration:12s;
+}
+
+.background-symbols span:nth-child(5){
+top:80%;
+left:80%;
+animation-duration:15s;
+}
+
+.background-symbols span:nth-child(6){
+top:20%;
+left:50%;
+animation-duration:11s;
+}
+
+/* Animation */
+@keyframes float{
+0%{
+transform:translateY(0);
+}
+50%{
+transform:translateY(-40px);
+}
+100%{
+transform:translateY(0);
+}
+}

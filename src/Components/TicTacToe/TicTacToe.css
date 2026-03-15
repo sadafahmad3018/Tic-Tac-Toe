@@ -1,0 +1,157 @@
+body{
+    background: linear-gradient(135deg,#1e3c72,#2a5298);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family:Arial;
+}
+
+/* TURN TEXT */
+
+.turn-text{
+font-size:24px;
+color:white;
+margin-bottom:20px;
+text-align:center;
+}
+
+/* BOARD */
+
+.board{
+    background:rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    padding:30px;
+    border-radius:20px;
+}
+
+/* ROW */
+
+.board-row{
+    display:flex;
+    gap:18px;
+    margin-bottom:18px;
+}
+
+/* SQUARE DESIGN */
+
+.square{
+    width:95px;
+    height:95px;
+
+    border:none;
+    border-radius:25px;
+
+    background:#c6c400;
+    color:white;
+
+    font-size:40px;
+    font-weight:bold;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    cursor:pointer;
+
+    transition: all 0.25s ease;
+
+    box-shadow:0px 0px 25px rgba(120,120,255,0.6);
+}
+
+/* HOVER EFFECT */
+
+.square:hover{
+    transform:scale(1.15);
+    box-shadow:0px 0px 40px rgba(120,120,255,0.9);
+}
+
+/* CLICK EFFECT */
+
+.square:active{
+    transform:scale(0.95);
+}
+
+/* WINNER SQUARE */
+
+.winner-square{
+    background:#4CAF50;
+    color:white;
+}
+
+/* RESET BUTTON */
+
+button{
+    margin-top:20px;
+    padding:12px 25px;
+    font-size:18px;
+    border:none;
+    border-radius:10px;
+    background:#ff5252;
+    color:white;
+    cursor:pointer;
+    transition:0.2s;
+}
+/* .back-btn{
+  position:realtive;
+  top:20px;
+  left:20px;
+
+  padding:10px 18px;
+  font-size:16px;
+
+  background:#ff5252;
+  color:white;
+
+  border:none;
+  border-radius:8px;
+
+  cursor:pointer;
+
+  transition:0.2s ease;
+}
+
+.back-btn:hover{
+  background:#ff2e2e;
+  transform:scale(1.05);
+} */
+ .back-btn{
+  margin-top:20px;
+  padding:10px 20px;
+  font-size:16px;
+  border:none;
+  border-radius:8px;
+  background:yellow;
+  color:black;
+  cursor:pointer;
+  transition:0.2s;
+  display: flex;
+}
+
+.back-btn:hover{
+  background:#806969;
+}
+.difficulty-container{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.difficulty-buttons{
+  display:flex;
+  gap:15px;
+  margin-top:20px;
+}
+
+.score-board{
+  text-align:center;
+  margin-bottom:15px;
+  color:white;
+}
+
+.scores{
+  display:flex;
+  gap:20px;
+  justify-content:center;
+  font-size:18px;
+}

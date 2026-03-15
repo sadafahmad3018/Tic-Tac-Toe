@@ -1,11 +1,53 @@
-# Tic-Tac-Toe-Game
-# Description
-A web-based Tic Tac Toe game developed using HTML, CSS, and JavaScript.
-Supports both Human vs Human and Human vs Computer modes with smart AI that prioritizes winning or blocking moves. The game also includes match series setup, scoreboard, series winner display, and input validation for better user experience.
-# Features
-1. Two game modes: Human vs Human and Human vs Computer.
-2. Intelligent computer moves: tries to win or block opponent’s winning move.
-3. Match series setup: user can set number of matches to play.
-4. Scoreboard shows ongoing points for each player.
-5. Series winner message displayed at the end.
-6. Input validation prevents moves before starting the series.
+🎮 Tic Tac Toe Game (React)
+
+A web-based Tic Tac Toe game built using React.js that supports multiple game modes, AI difficulty levels, and match series with a dynamic scoreboard.
+
+📖 Description
+
+This project is an interactive Tic Tac Toe application where users can play against another player or a computer. The game includes smart AI, score tracking, and a winner screen after completing selected matches.
+
+🚀 Features
+
+Multiple Game Modes
+
+Human vs Human
+
+Human vs Computer
+
+Computer vs Computer
+
+AI Difficulty Levels
+
+Easy (Random moves)
+
+Medium (Win / Block strategy)
+
+Hard (Minimax Algorithm)
+
+Match Series System
+
+Select number of matches to play
+
+Automatic progression to the next match
+
+Scoreboard
+
+Tracks wins and draws across matches
+
+Winning Highlight
+
+Winning row, column, or diagonal highlighted in green
+
+Winner Screen
+
+Displays the final winner after the series ends
+
+🛠️ Technologies Used
+
+React.js
+
+JavaScript
+
+CSS
+
+React Hooks

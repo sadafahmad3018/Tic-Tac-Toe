@@ -1,57 +1,49 @@
-🎮 Tic Tac Toe Game (React)
+# Tic-Tac-Toe Game (React)
 
-A web-based Tic Tac Toe game built using React.js that supports multiple game modes, AI difficulty levels, and match series with a dynamic scoreboard.
+##  Description
+A web-based Tic Tac Toe game built using **React.js, HTML, CSS, and JavaScript**.  
+It supports multiple game modes including Human vs Human and Human vs Computer with smart AI logic.
 
-📖 Description
+The game also includes match series functionality, dynamic scoreboard tracking, and a winner display system for an engaging user experience.
 
-This project is an interactive Tic Tac Toe application where users can play against another player or a computer. The game includes smart AI, score tracking, and a winner screen after completing selected matches.
+---
 
-🚀 Features
+##  Features
 
-Multiple Game Modes
+###  Game Modes
+- Human vs Human  
+- Human vs Computer  
+- Computer vs Computer  
 
-Human vs Human
+###  AI System
+- Smart AI that tries to **win or block opponent moves**  
+- Multiple difficulty levels (Easy, Medium, Hard)
 
-Human vs Computer
+###  Match Series
+- User can select number of matches  
+- Automatic progression to next match  
 
-Computer vs Computer
+###  Scoreboard
+- Tracks wins, losses, and draws  
+- Updates in real-time  
 
-AI Difficulty Levels
+###  Winning Highlight
+- Highlights winning row, column, or diagonal  
 
-Easy (Random moves)
+###  Winner Screen
+- Displays final winner after series completion  
 
-Medium (Win / Block strategy)
+### Input Validation
+- Prevents invalid moves  
+- Ensures proper game flow  
 
-Hard (Minimax Algorithm)
+---
 
-Match Series System
+##  Technologies Used
+- React.js  
+- JavaScript  
+- HTML  
+- CSS  
 
-Select number of matches to play
+---
 
-Automatic progression to the next match
-
-Scoreboard
-
-Tracks wins and draws across matches
-
-Winning Highlight
-
-Winning row, column, or diagonal highlighted in green
-
-Winner Screen
-
-Displays the final winner after the series ends
-
-🛠️ Technologies Used
-
-React.js
-
-JavaScript
-
-CSS
-
-<<<<<<< HEAD
-React Hooks
-=======
-React Hooks
->>>>>>> 217c891fc3e8099de0aef1c7c247574119e9a34e

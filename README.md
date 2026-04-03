@@ -1,4 +1,4 @@
-# Tic-Tac-Toe Game (React)
+# Tic-Tac-Toe Game 
 
 ##  Description
 A web-based Tic Tac Toe game built using **React.js, HTML, CSS, and JavaScript**.  
